@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">Dungeon Clicker</title>
+    <link
+      rel="icon"
+      href="../server/assets/Icon Pack/64x64/woodSword.png"
+      type="image/icon type"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="master-container">
+      <div class="title">
+        <div id="player-data">
+          <p id="player-lvl">Player Level: 1</p>
+          <p id="attack-pwr">Attack Power: 1</p>
+        </div>
+        <h1 id="header-title">Dungeon Clicker</h1>
+        <p id="gold-counter">0GP</p>
+      </div>
+      <div class="container">
+        <div class="player-container">
+          <button id="attack-btn"></button>
+        </div>
+        <div class="monster-section">
+          <div id="monster-container">
+            <div class="monster-info">
+              <p id="monster-name"></p>
+              <div id="monster-img-container">
+                <img id="monster-img" />
+              </div>
+              <div id="monster-data">
+                <p id="health-counter"></p>
+                <p id="monster-lvl">Monster Level:</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shop-container">
+          <button id="auto-btn">Recruit Party Member (150 GP)</button>
+          <button id="atkpwr-btn">Increase Attack Power +1 (75 GP)</button>
+        </div>
+      </div>
+    </div>
+    <div class="osrs">
+      <div class="addMonster">
+        <p id="addMonsterP">Add a Monster!</p>
+        <form id="form">
+          <input
+            type="text"
+            id="mnstrname"
+            placeholder="What's the monster name?"
+          />
+          <input
+            type="number"
+            id="monsterLvl"
+            placeholder="What level is it?"
+          />
+          <input
+            type="number"
+            id="health"
+            placeholder="How much health does it have?"
+          />
+          <input type="text" id="img" placeholder="Paste an image URL" />
+          <button id="addBtn">Add Monster</button>
+        </form>
+      </div>
+      <div id="mybutton">
+        <button class="feedback">Credit</button>
+      </div>
+    </div>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

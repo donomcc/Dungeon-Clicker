@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Crawling Hand",
+        "level": 7,
+        "health": 15,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Crawling_Hand_%28level_7%29.png/200px-Crawling_Hand_%28level_7%29.png?3e89e"
+    },
+    {
+        "id": 2,
+        "name": "Dark Beast",
+        "level": 182,
+        "health": 220,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Dark_beast.png/290px-Dark_beast.png?81f00"
+    },
+    {
+        "id": 3,
+        "name": "Shadow Wyrm",
+        "level": 267,
+        "health": 320,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Shadow_Wyrm.png/250px-Shadow_Wyrm.png?7388d"
+    },
+    {
+        "id": 4,
+        "name": "Kraken",
+        "level": 291,
+        "health": 255,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Kraken.png/290px-Kraken.png?a4955"
+    },
+    {
+        "id": 5,
+        "name": "Cerberus",
+        "level": 320,
+        "health": 600,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Cerberus.png/280px-Cerberus.png?47f4c"
+    },
+    {
+        "id": 6,
+        "name": "Basilisk",
+        "level": 61,
+        "health": 75,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Basilisk.png/280px-Basilisk.png?37a42"
+    },
+    {
+        "id": 7,
+        "name": "Turoth",
+        "level": 87,
+        "health": 79,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Turoth_%28lv_89%29.png/250px-Turoth_%28lv_89%29.png?2e88b"
+    },
+    {
+        "id": 8,
+        "name": "Basilisk Knight",
+        "level": 204,
+        "health": 300,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Basilisk_Knight.png/280px-Basilisk_Knight.png?a21ef"
+    },
+    {
+        "id": 9,
+        "name": "Gargoyle",
+        "level": 111,
+        "health": 105,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Gargoyle.png/250px-Gargoyle.png?b7dd7"
+    },
+    {
+        "id": 10,
+        "name": "Brutal Black Dragon",
+        "level": 318,
+        "health": 315,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Brutal_black_dragon.png/290px-Brutal_black_dragon.png?24f54"
+    },
+    {
+        "id": 11,
+        "name": "Rat",
+        "level": 1,
+        "health": 4,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Rat.png/150px-Rat.png?c17cb"
+    },
+    {
+        "id": 12,
+        "name": "Cow",
+        "level": 2,
+        "health": 13,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Cow_%281%29.png/200px-Cow_%281%29.png?52ebb"
+    },
+    {
+        "id": 13,
+        "name": "King Scorpion",
+        "level": 32,
+        "health": 30,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/King_Scorpion.png/250px-King_Scorpion.png?7d174"
+    },
+    {
+        "id": 14,
+        "name": "Abyssal Leech",
+        "level": 41,
+        "health": 10,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Abyssal_leech.png/250px-Abyssal_leech.png?ece40"
+    },
+    {
+        "id": 15,
+        "name": "Giant Spider",
+        "level": 50,
+        "health": 10,
+        "imageURL": "https://oldschool.runescape.wiki/images/thumb/Giant_spider_%28Level_50%29.png/250px-Giant_spider_%28Level_50%29.png?b4ced"
+    }
+]

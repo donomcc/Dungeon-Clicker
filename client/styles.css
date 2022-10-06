@@ -1,0 +1,223 @@
+body {
+    background-color: #1E2022;
+    color: #F0F5F9;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: url("../server/assets/cursors/PNG/White/1x/cursor.png"),auto;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+    cursor: url("../server/assets/cursors/PNG/Black/1x/toolPencil.png");
+
+  }
+
+input {
+    padding: 3px;
+    margin: 4px;
+    cursor: url("../server/assets/cursors/PNG/Black/1x/toolPencil.png");
+}
+
+#addMonsterP {
+    text-align: center;
+    font-size: 24px;
+}
+
+input:focus {
+    border: 3px solid #F0F5F9;
+  }
+
+.title {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+    margin-top: 40vh;
+}
+
+#master-container {
+    height: 80vh;
+    background-image: url("../server/assets/dungeon.jpg");
+    background-size:100% 100%;
+    padding: 0px 24vh 24vh 24vh;
+}
+
+#player-lvl {
+    margin-bottom: 2px;
+}
+
+#attack-pwr {
+    margin-top: 2px;
+}
+
+#player-data {
+    font-size: 24px;
+}
+
+.osrs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.shop-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+
+/* .player-container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+#gold-counter {
+    font-size: 24px;
+}
+
+#attack-btn {
+    background: url(/server/assets/btn-unpressed.png) no-repeat;
+    border: none;
+    /* padding: 105%; */
+    cursor: url("../server/assets/cursors/PNG/White/1x/pointer.png"),auto;
+    width: 300px;
+    height: 300px;
+}
+
+#header-title {
+    margin: 16px;
+}
+
+#attack-btn:active {
+    background: url(/server/assets/btn-pressed.png) no-repeat;
+    border: none;
+    color: #d63031;
+}
+
+#monster-name {
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+#health-counter {
+    font-size: 28px;
+}
+
+#monster-lvl{
+    font-size: 20px;
+}
+
+.monster-info {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#monster-img-container {
+    height: 190px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#monster-data {
+    text-align: center;
+}
+
+#monster-img {
+    padding: 20px;
+}
+
+
+.shop-container img {
+    position: relative;
+    width: 30%;
+    height: 90%;
+}
+
+.shop-container button {
+    width: 100%;
+    margin-top: 5px;
+    background-color : #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+    cursor: url("../server/assets/cursors/PNG/White/1x/pointer.png"),auto;
+}
+
+
+.feedback {
+    background-color : #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+    cursor: pointer;
+  }
+  
+#mybutton {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+    cursor: url("../server/assets/cursors/PNG/White/1x/pointer.png"),auto;
+  }
+
+
+.addMonster {
+    margin-top: 6px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: center;
+
+}
+
+.addMonster button {
+    background-color : #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+    cursor: url("../server/assets/cursors/PNG/White/1x/pointer.png"),auto;
+}
+
+.addMonster form input {
+    width: 100%;
+    color: #1E2022;
+  }
+
+#monster-bg {
+    background-size: contain;
+}
+
